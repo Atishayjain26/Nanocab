@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | NanoCab Wires & Cables</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .error-container {
+            min-height: calc(100vh - 200px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 3rem 1.5rem;
+            background-color: var(--bg-light);
+        }
+        .error-code {
+            font-size: 8rem;
+            font-weight: 800;
+            color: var(--secondary);
+            line-height: 1;
+            margin-bottom: 1rem;
+            letter-spacing: -2px;
+        }
+        .error-title {
+            font-size: 2.25rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+        .error-desc {
+            font-size: 1.15rem;
+            color: var(--text-light);
+            margin-bottom: 2.5rem;
+            max-width: 500px;
+            line-height: 1.6;
+        }
+        .error-logo {
+            margin-bottom: 2rem;
+        }
+        .error-logo img {
+            height: 60px;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="https://nanocab.co.in/" class="logo">
+                <img src="assets/logo.webp" alt="NanoCab Wires & Cables Logo" class="logo-img">
+            </a>
+            <div class="header-actions">
+                <a href="tel:+917827631154" class="phone-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" class="icon-phone"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                    <span>+91-7827631154</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Error Message -->
+    <main class="error-container">
+        <div class="error-logo">
+            <img src="assets/logo.webp" alt="NanoCab Wires & Cables Logo">
+        </div>
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-desc">Oops! The page you are looking for does not exist or has been moved. Use the button below to return to our homepage.</p>
+        <a href="https://nanocab.co.in/" class="btn btn-primary btn-large">Back to Homepage</a>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-bottom" style="border: none; padding: 2rem 0; text-align: center;">
+            <p>&copy; 2026 NanoCab Wires & Cables Company. All Rights Reserved. Designed for safety.</p>
+        </div>
+    </footer>
+</body>
+</html>
